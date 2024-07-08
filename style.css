@@ -1,0 +1,205 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.allcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.transform-skewY{
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 4rem;
+    margin: 2rem;
+}
+
+.transform-skewY .box1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(141, 38, 0);
+    transform: skewY(10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+}
+
+.transform-skewY .box2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(138, 0, 81);   
+    transform: skewY(-10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+}
+
+.transform-skewY .box3{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(100, 53, 0);
+    transform: skewY(10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+}
+
+.transform-skewY .box4{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(28, 0, 83); 
+    transform: skewY(-10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+}
+
+.transform-skewX{
+    width: 300px;
+    text-align: center;
+    float: left;
+    margin: 2rem;
+
+
+
+}
+ 
+.transform-skewX .box1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(148, 0, 0);
+    transform: skewX(10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+}
+
+.transform-skewX .box2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(124, 6, 63);
+    transform: skewX(-10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+
+}
+
+.transform-skewX .box3{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(12, 26, 0);
+    transform: skewX(10deg);
+    border: 3px solid white;
+}
+.transform-skewX .box4{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(168, 42, 42);
+    transform: skewX(-10deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+    border: 3px solid white;
+
+
+}
+
+h3{
+    color: rgb(230, 251, 0);
+    font-weight: bold;
+}
+
+h3:hover{
+    color: rgb(217, 217, 217);
+    font-weight: bold;
+}
+
+.XYitem{
+    color: rgb(60, 0, 255);
+}
+
+.XYitem-{
+    color: rgb(255, 255, 255);
+}
+
+.skew1{
+    color: rgb(255, 0, 111);
+}
+
+
+.skew2{
+    color: rgb(255, 255, 255);
+}
+.XYitem:hover,
+.XYitem-:hover{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 10px rgb(255, 250, 250);
+}
+
+
+.con-cycle{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px dotted rgb(255, 187, 0);
+    text-align: center;
+    float: left;
+    margin: 2rem;
+
+}
+.cycle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(245, 94, 0);
+    transition: transform 5s linear;
+
+}
+
+.cycle.cycle:hover{
+    transform: rotate(360deg) scale(1.5) skewY(-20deg);
+    filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+
+}
+
+
+/* For desktop screens */
+@media only screen and (min-width: 768px) {
+  /* styles for desktop screens */
+}
+
+/* For tablet screens */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* styles for tablet screens */
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 479px) {
+  /* styles for mobile screens */
+}
+
+
+/* For desktop screens */
+@media only screen and (min-width: 768px) {
+    /* styles for desktop screens */
+  }
+  
+  /* For tablet screens */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* styles for tablet screens */
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 479px) {
+    /* styles for mobile screens */
+  }
+
+
+
+
